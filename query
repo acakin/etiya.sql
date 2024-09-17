@@ -1,0 +1,30 @@
+--SELECT * FROM Products
+--WHERE supplierid BETWEEN 1 AND 5;
+
+--SELECT * FROM Products
+--WHERE supplierid IN (1,2,4,5);
+
+--SELECT * FROM Products
+--WHERE productname In ('Chang', 'Aniseed Syrup');
+
+--SELECT * from Products
+--WHERE supplierid = 3 or unitprice > 10; 
+
+--SELECT productname, unitprice from Products;
+
+--SELECT UPPER(productname) from Products
+--WHERE productname LIKE 'c%';
+
+--SELECT productname from Products
+--WHERE productname LIKE 'n%' AND (LENGTH(REPLACE(productname, 'n', '')) = LENGTH(productname) - 1);
+
+
+--SELECT * FROM Products
+--where unitsinstock > 50 ;
+
+--SELECT * from Products
+--WHERE unitprice = (SELECT MAX(unitprice)from Products)
+--or unitprice = (SELECT MIN(unitprice) From Products);
+
+--SELECT * from Products
+--where productname LIKE '%spice%';
